@@ -1,4 +1,4 @@
-entrypoint = "test/test.py"
+entrypoint = "Day1/BandNameGenerator.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "test/test.py"]
+run = ["python3", "Day1/BandNameGenerator.py"]
 deploymentTarget = "cloudrun"
