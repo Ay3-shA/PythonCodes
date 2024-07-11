@@ -1,4 +1,4 @@
-entrypoint = "day2/datatypes.py"
+entrypoint = "Day2/BMI.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "day2/datatypes.py"]
+run = ["python3", "Day2/BMI.py"]
 deploymentTarget = "cloudrun"
