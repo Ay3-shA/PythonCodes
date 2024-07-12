@@ -10,3 +10,5 @@ total = tip / 100 * bill + bill
 Each_person_bill = round(total / people, 2)
 
 print (f"Each person should pay: $ {Each_person_bill} ")
+
+#-------------------------------------------------------------
