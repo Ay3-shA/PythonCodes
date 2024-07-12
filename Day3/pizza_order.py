@@ -20,7 +20,7 @@ if add_pepperoni == "Y":
 if extra_cheese == "Y":
   bill += 1
 
-print(f"Your total bill is {bill}$ ")
+print(f"Your total bill is ${bill} ")
 
 #-----------------------------------------------------------
   
