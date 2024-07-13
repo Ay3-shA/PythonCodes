@@ -1,21 +1,42 @@
 #Treasure Island
 
+# print ("Welcome to Treasure Island.")
+# print ("Your mission is to find the treasure.")
+# choice1 = input('You\'re at a crossroad, where do you want to go? Type "left" or "right".\n')
+
+# if choice1 == "left":
+#   choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.\n')
+#   if choice2 == "wait":
+#     choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n")
+#     if choice3 == "red":
+#       print("It's a room full of fire. Game Over.")
+#     elif choice3 == "yellow":
+#       print("You found the treasure! You Win!")
+#     elif choice3 == "blue":
+#       print("You enter a room of beasts. Game Over.")
+#     else:
+#       print("You chose a door that doesn't exist. Game Over.")
+#   else:
+#     print("You get attacked by an angry trout. Game Over.")
+
+# else:
+#   print("You fell into a hole. Game Over.")  
+  
+
+
 lr = input ("left or right ? ").lower()
 #print (lr)
-if lr == "right":
-  print ("Game Over.")
-elif lr == "left":
+if lr == "left":
   sw = input ("Swim or wait ").lower()
-  if sw == "swim":
-    print ("Game over")
-  elif sw == "wait":
-    door = input("Which door ").lower()
-    if door == "blue":
-      print ("Game Over")
-    elif door == "red":
-      print ("game over")
-    elif door == "yellow":
+  if sw == "wait":
+    door = input("Which door? red, yellow or blue? ").lower()
+    if door == "yellow":
       print ("You Win!!!")
-      
+    else:
+      print("Game Over")
+  else:
+    print ("Game over")
+else: 
+  print ("Game Over.")
       
       
