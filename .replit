@@ -1,4 +1,4 @@
-entrypoint = "Day3/Treasure_Island.py"
+entrypoint = "Day4/who's_paying.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Day3/Treasure_Island.py"]
+run = ["python3", "Day4/who's_paying.py"]
 deploymentTarget = "cloudrun"
