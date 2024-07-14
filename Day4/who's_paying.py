@@ -17,4 +17,7 @@ random_name = random.randint(0, names_length - 1)
 pay = (names[random_name])
 print(f"{pay} is going to pay bill.")
 
+#or person_who_will_pay = random.choice(names)
+
+
 #--------------------------------------------------------------------------
