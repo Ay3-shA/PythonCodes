@@ -1,3 +1,4 @@
+#Day3 Project
 #Rock Paper Scissors Game
 
 import random
@@ -46,7 +47,6 @@ else:
     print ("You lose!!!")
   elif your_choice == computer:
     print("It's a Draw")
-
 
 
 #-------------------------------------------------------------------------
