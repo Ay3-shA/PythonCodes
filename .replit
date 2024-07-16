@@ -1,4 +1,4 @@
-entrypoint = "Day5/loops.py"
+entrypoint = "Day5/height_of_students.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Day5/loops.py"]
+run = ["python3", "Day5/height_of_students.py"]
 deploymentTarget = "cloudrun"
