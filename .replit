@@ -1,4 +1,4 @@
-entrypoint = "Day5/highest_score.py"
+entrypoint = "Day5/add_even.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Day5/highest_score.py"]
+run = ["python3", "Day5/add_even.py"]
 deploymentTarget = "cloudrun"
