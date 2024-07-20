@@ -1,4 +1,5 @@
 #Hangman
+
 import random
 
 stages = ['''
@@ -77,7 +78,11 @@ end_of_game = False
 while not end_of_game:
   guess = input("Guess a letter.\n").lower()
 
+  if guess in display:
+    print(f"You already have guessed {guess}.\n")
+
   if guess not in chosen_word:
+    print(f"You guessed {guess}, that is not in the word. You lose a life.")
     lives -= 1
     if lives == 0:
       end_of_game = True
