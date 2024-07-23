@@ -1,4 +1,4 @@
-entrypoint = "Day7/hangman.py"
+entrypoint = "Day8/function_Greetings.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Day7/hangman.py"]
+run = ["python3", "Day8/function_Greetings.py"]
 deploymentTarget = "cloudrun"
