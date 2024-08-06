@@ -13,6 +13,8 @@ def prime_checker(number):
       return
   
   print("It's a prime number.")
+
+
   
 
 
